@@ -15,25 +15,19 @@
 *{
     width: 0px;
     padding: 0px;
-}
-body{
+    box-sizing: border-box;
     background-color: var(--cor2);
-    margin: 0px;
 }
-header{
-    background-color: var(--cor1);
-    width: 100vw;
-    height: 70px;
-    padding: 0px;
-}
-#links{
-
-
-}
-#links a{
+li a {
+    font-family: var(--font-max), sans-serif;
+    font-size: 1.3em;
     text-decoration: none;
-    margin: 10px;
     color: white;
-    font-size: 1.2em;
-    font-family: var(--font-max);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
