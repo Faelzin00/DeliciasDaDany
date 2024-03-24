@@ -26,6 +26,10 @@ header{
     height: 100px;
     box-shadow: 1px 1px 6px rgba(236, 101, 101, 0.822);
 }
+.imagem{
+    width: 100px;
+    height: 100px;
+}
 .menu{
     cursor: pointer;
 }
@@ -52,13 +56,12 @@ header{
 .nav_bar{
     display: flex;
     justify-content: center;
-    margin: -90px 0px;
+    margin: -70px 0px;
 }
 .nav_links{
     width: 100px;
     height: 80px;
-    margin: 0px 30px;
-    padding: 20px 0px;
+    margin: 0px 25px;
     text-align: center;
 }
 .nav_links a {

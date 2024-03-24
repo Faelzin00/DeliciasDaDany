@@ -51,7 +51,7 @@
 #overplay{
     width: 0;
     height: 100%;
-    background-color: black;
+    background-color: #c24a4a;
     z-index: 9;
     position: fixed;
     left: 0;
