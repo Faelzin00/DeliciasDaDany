@@ -26,6 +26,29 @@ header{
     height: 100px;
     box-shadow: 1px 1px 6px rgba(236, 101, 101, 0.822);
 }
+.menu{
+    cursor: pointer;
+}
+.nav_menu{
+    display: none;
+    position: absolute;
+    left: 90%;
+    top: 35px;
+    
+    box-shadow: 1px 1px 3px #f5675ad8;
+    background-color: var(--cor2);
+    width: 35px;
+    height: 35px;
+    border-radius: 14px;
+    padding-top: 6px;
+}
+.nav_menu div{
+    width: 20px;
+    height: 3px;
+    margin: 3px auto;
+    background-color: white;
+    border-radius: 10px;
+}
 .nav_bar{
     display: flex;
     justify-content: center;

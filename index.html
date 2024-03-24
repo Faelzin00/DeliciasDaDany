@@ -5,17 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeliciasDaDany</title>
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style/media_querie.css" media="(max-width: 768px)">
+    <script src="java/javascript.js"></script>
 </head>
-<body>
+<body onresize="mudouTamanho()">
+    <section id="overplay">
+        <label for="label_check" class="menu">
+            <div class="feche_menu" id="buttom2"  onclick="closeNav()">
+                <div class="itens1"></div>
+                <div class="itens2"></div>
+                <div class="itens3"></div>
+            </div>
+    </section>
     <header>
         <img src="imagens/Logo(100x100).png" alt="logo">
+
         <div class="nav_bar">
             <div class="nav_links"><a href="#">Início</a></div>
             <div class="nav_links"><a href="#">Cardápio</a></div>
             <div class="nav_links"><a href="#">Enderenço</a></div>
         </div>
+        <label for="label_check" class="menu">
+            <div  id="buttom" class="nav_menu"  onclick="openNav()">
+                <div class="menu_itens1"></div>
+                <div class="menu_itens2"></div>
+                <div class="menu_itens3"></div>
+            </div>
+        </label>
     </header>
- 
     <main>
         
     </main>

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.nav_bar {
+    display: none;
+ }
+.nav_menu{
+    display: block;
+}
+.nav_menu:active{
+    transform: translate(2px, 2px);
+    border-radius: 14px;
+    box-shadow: 1px 1px 3px rgba(209, 86, 86, 0.849);
+}
+.feche_menu{
+    position: absolute;
+    left: 90%;
+    top: 35px;
+    
+    box-shadow: 1px 1px 3px #f5675ad8;
+    background-color: var(--cor2);
+    width: 35px;
+    height: 35px;
+    border-radius: 14px;
+    padding-top: 6px;
+}
+.feche_menu div{
+    width: 20px;
+    height: 3px;
+    margin: 3px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.itens1{
+    transform: rotate(-50deg) scaleX(1.2) translate(-5px, 5px);
+    transition: all 0.5s ease-in;
+}
+
+.itens2{
+    opacity: 0;
+}
+.itens3{
+    transform: rotate(50deg) scaleX(1.2) translate(-3px, -3px);
+    transition: all 0.5s ease-in;
+}
+
+.feche_menu:active{
+    transform: translate(2px, 2px);
+    border-radius: 14px;
+    box-shadow: 1px 1px 3px rgba(209, 86, 86, 0.849);
+}
+#overplay{
+    width: 0;
+    height: 100%;
+    background-color: black;
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all .5s ease;
+}
+#overplay .feche_menu{
+    position: absolute;
+    left: 5%;
+    top: 35px;
+}
